@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(26, 36, 66, 0.8),
+      rgba(26, 36, 66, 0.8)
+    ),
+    url("assets/pexels-maxyne-barcel-10402282 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.navbar div img {
+  width: 120px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.list-item {
+  list-style: none;
+  color: #ffc233;
+  font-size: 16px;
+}
+
+.button-small {
+  background-color: #f63343;
+  padding: 8px 32px 8px 32px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-heading {
+  margin-top: 50px;
+  padding: 0 180px 0 180px;
+  line-height: 1.2;
+  color: #ffc233;
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.button-large {
+  font-size: 16px;
+  font-family: "Red Rose", sans-serif;
+  padding: 12px 32px 12px 32px;
+  background-color: #f63343;
+  color: #fff;
+  border: none;
+}
+
+.bottom {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 500px;
+}
+
+.bottom img {
+  width: 100px;
+  height: 100px;
+}
